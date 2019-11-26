@@ -1,4 +1,4 @@
-function mA = unsigned_area_matrix(vertex,face,mu)
+function mA = signed_area_matrix(vertex,face,mu)
 % a = (1-2*real(mu)+abs(mu).^2)./(1.0-abs(mu).^2);
 % b = -2*imag(mu)./(1.0-abs(mu).^2);
 % g = (1+2*real(mu)+abs(mu).^2)./(1.0-abs(mu).^2);
